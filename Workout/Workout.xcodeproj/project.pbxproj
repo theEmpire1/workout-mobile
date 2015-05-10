@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64405841AFDBC55007AA474 /* ExerciseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405831AFDBC55007AA474 /* ExerciseCollectionViewCell.m */; };
-		D64405871AFDBEF7007AA474 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405861AFDBEF7007AA474 /* Exercise.m */; };
-		D644058A1AFDBFA6007AA474 /* ExerciseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405891AFDBFA6007AA474 /* ExerciseViewModel.m */; };
+		D64405841AFDBC55007AA474 /* WKOExerciseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405831AFDBC55007AA474 /* WKOExerciseCollectionViewCell.m */; };
+		D64405871AFDBEF7007AA474 /* WKOExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405861AFDBEF7007AA474 /* WKOExercise.m */; };
+		D644058A1AFDBFA6007AA474 /* WKOExerciseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64405891AFDBFA6007AA474 /* WKOExerciseViewModel.m */; };
+		D681999A1B00268600E3FE07 /* WKOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D68199991B00268600E3FE07 /* WKOConstants.m */; };
 		D6B1B47B1AFDA940007A4340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B1B47A1AFDA940007A4340 /* main.m */; };
 		D6B1B47E1AFDA940007A4340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B1B47D1AFDA940007A4340 /* AppDelegate.m */; };
 		D6B1B4861AFDA940007A4340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B1B4851AFDA940007A4340 /* Images.xcassets */; };
 		D6B1B4891AFDA940007A4340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B1B4871AFDA940007A4340 /* LaunchScreen.xib */; };
 		D6B1B4951AFDA941007A4340 /* WorkoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B1B4941AFDA941007A4340 /* WorkoutTests.m */; };
-		D6B1B4A01AFDB843007A4340 /* ExerciseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B1B49F1AFDB843007A4340 /* ExerciseCollectionViewController.m */; };
+		D6B1B4A01AFDB843007A4340 /* WKOExerciseListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B1B49F1AFDB843007A4340 /* WKOExerciseListCollectionViewController.m */; };
 		D6B1B4A21AFDB86E007A4340 /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B1B4A11AFDB86E007A4340 /* Workout.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -30,12 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D64405821AFDBC55007AA474 /* ExerciseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCollectionViewCell.h; sourceTree = "<group>"; };
-		D64405831AFDBC55007AA474 /* ExerciseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCollectionViewCell.m; sourceTree = "<group>"; };
-		D64405851AFDBEF7007AA474 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
-		D64405861AFDBEF7007AA474 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
-		D64405881AFDBFA6007AA474 /* ExerciseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewModel.h; sourceTree = "<group>"; };
-		D64405891AFDBFA6007AA474 /* ExerciseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewModel.m; sourceTree = "<group>"; };
+		D64405821AFDBC55007AA474 /* WKOExerciseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKOExerciseCollectionViewCell.h; sourceTree = "<group>"; };
+		D64405831AFDBC55007AA474 /* WKOExerciseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKOExerciseCollectionViewCell.m; sourceTree = "<group>"; };
+		D64405851AFDBEF7007AA474 /* WKOExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKOExercise.h; sourceTree = "<group>"; };
+		D64405861AFDBEF7007AA474 /* WKOExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKOExercise.m; sourceTree = "<group>"; };
+		D64405881AFDBFA6007AA474 /* WKOExerciseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKOExerciseViewModel.h; sourceTree = "<group>"; };
+		D64405891AFDBFA6007AA474 /* WKOExerciseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKOExerciseViewModel.m; sourceTree = "<group>"; };
+		D68199981B00268600E3FE07 /* WKOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKOConstants.h; path = ../WKOConstants.h; sourceTree = "<group>"; };
+		D68199991B00268600E3FE07 /* WKOConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKOConstants.m; path = ../WKOConstants.m; sourceTree = "<group>"; };
 		D6B1B4751AFDA940007A4340 /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B1B4791AFDA940007A4340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B1B47A1AFDA940007A4340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,8 +49,8 @@
 		D6B1B48E1AFDA941007A4340 /* WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B1B4931AFDA941007A4340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B1B4941AFDA941007A4340 /* WorkoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutTests.m; sourceTree = "<group>"; };
-		D6B1B49E1AFDB843007A4340 /* ExerciseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCollectionViewController.h; sourceTree = "<group>"; };
-		D6B1B49F1AFDB843007A4340 /* ExerciseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCollectionViewController.m; sourceTree = "<group>"; };
+		D6B1B49E1AFDB843007A4340 /* WKOExerciseListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKOExerciseListCollectionViewController.h; sourceTree = "<group>"; };
+		D6B1B49F1AFDB843007A4340 /* WKOExerciseListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKOExerciseListCollectionViewController.m; sourceTree = "<group>"; };
 		D6B1B4A11AFDB86E007A4340 /* Workout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Workout.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,14 +75,14 @@
 		D644058B1AFDBFAE007AA474 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				D64405851AFDBEF7007AA474 /* Exercise.h */,
-				D64405861AFDBEF7007AA474 /* Exercise.m */,
-				D64405881AFDBFA6007AA474 /* ExerciseViewModel.h */,
-				D64405891AFDBFA6007AA474 /* ExerciseViewModel.m */,
-				D6B1B49E1AFDB843007A4340 /* ExerciseCollectionViewController.h */,
-				D6B1B49F1AFDB843007A4340 /* ExerciseCollectionViewController.m */,
-				D64405821AFDBC55007AA474 /* ExerciseCollectionViewCell.h */,
-				D64405831AFDBC55007AA474 /* ExerciseCollectionViewCell.m */,
+				D64405851AFDBEF7007AA474 /* WKOExercise.h */,
+				D64405861AFDBEF7007AA474 /* WKOExercise.m */,
+				D64405881AFDBFA6007AA474 /* WKOExerciseViewModel.h */,
+				D64405891AFDBFA6007AA474 /* WKOExerciseViewModel.m */,
+				D6B1B49E1AFDB843007A4340 /* WKOExerciseListCollectionViewController.h */,
+				D6B1B49F1AFDB843007A4340 /* WKOExerciseListCollectionViewController.m */,
+				D64405821AFDBC55007AA474 /* WKOExerciseCollectionViewCell.h */,
+				D64405831AFDBC55007AA474 /* WKOExerciseCollectionViewCell.m */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -108,6 +111,8 @@
 				D6B1B47C1AFDA940007A4340 /* AppDelegate.h */,
 				D6B1B47D1AFDA940007A4340 /* AppDelegate.m */,
 				D6B1B4851AFDA940007A4340 /* Images.xcassets */,
+				D68199981B00268600E3FE07 /* WKOConstants.h */,
+				D68199991B00268600E3FE07 /* WKOConstants.m */,
 				D644058B1AFDBFAE007AA474 /* Exercise */,
 				D6B1B4A11AFDB86E007A4340 /* Workout.storyboard */,
 				D6B1B4871AFDA940007A4340 /* LaunchScreen.xib */,
@@ -186,6 +191,7 @@
 		D6B1B46D1AFDA940007A4340 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WKO;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Alex Samarchi";
 				TargetAttributes = {
@@ -242,11 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64405841AFDBC55007AA474 /* ExerciseCollectionViewCell.m in Sources */,
-				D64405871AFDBEF7007AA474 /* Exercise.m in Sources */,
-				D6B1B4A01AFDB843007A4340 /* ExerciseCollectionViewController.m in Sources */,
+				D64405841AFDBC55007AA474 /* WKOExerciseCollectionViewCell.m in Sources */,
+				D64405871AFDBEF7007AA474 /* WKOExercise.m in Sources */,
+				D6B1B4A01AFDB843007A4340 /* WKOExerciseListCollectionViewController.m in Sources */,
 				D6B1B47E1AFDA940007A4340 /* AppDelegate.m in Sources */,
-				D644058A1AFDBFA6007AA474 /* ExerciseViewModel.m in Sources */,
+				D681999A1B00268600E3FE07 /* WKOConstants.m in Sources */,
+				D644058A1AFDBFA6007AA474 /* WKOExerciseViewModel.m in Sources */,
 				D6B1B47B1AFDA940007A4340 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

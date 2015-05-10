@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Exercise : NSObject
+@interface WKOExercise : NSObject
 
+@property(strong, nonatomic) NSString *exerciseId;
 @property(strong, nonatomic) NSString *name;
-@property(strong, nonatomic) NSString *reps;
-@property(strong, nonatomic) NSString *sets;
+@property(strong, nonatomic) NSString *exerciseDescription;
+@property(strong, nonatomic) NSString *image;
 
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 

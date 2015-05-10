@@ -6,17 +6,17 @@
 //  Copyright (c) 2015 Alex Samarchi. All rights reserved.
 //
 
-#import "ExerciseCollectionViewController.h"
-#import "ExerciseCollectionViewCell.h"
+#import "WKOExerciseListCollectionViewController.h"
+#import "WKOExerciseCollectionViewCell.h"
 
-@interface ExerciseCollectionViewController () <UICollectionViewDataSource>
+@interface WKOExerciseListCollectionViewController () <UICollectionViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray *workoutArray;
 
 @end
 
-@implementation ExerciseCollectionViewController
+@implementation WKOExerciseListCollectionViewController
 
 - (void)viewDidLoad
 {
@@ -44,9 +44,9 @@
 
 - (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"ExerciseCollectionViewCell";
+    static NSString *cellIdentifier = @"WKOExerciseCollectionViewCell";
     
-    ExerciseCollectionViewCell *workoutCell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+    WKOExerciseCollectionViewCell *workoutCell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
     return workoutCell;
 }

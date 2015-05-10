@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExerciseCollectionViewCell : UICollectionViewCell
+@interface WKOExerciseCollectionViewCell : UICollectionViewCell
 
 @end

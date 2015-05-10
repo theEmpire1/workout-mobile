@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExerciseCollectionViewController : UIViewController
+@interface WKOExerciseListCollectionViewController : UIViewController
 
 @end
